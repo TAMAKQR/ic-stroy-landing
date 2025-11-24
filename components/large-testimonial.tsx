@@ -30,7 +30,7 @@ export default function LargeTestimonial() {
                 alt="Gaukhar Kassymova"
               />
             </div>
-            <p className="text-2xl font-bold text-gray-900">
+            <p className="text-xl md:text-2xl font-bold text-gray-900">
               “Более 20 лет я развиваю компанию IC Stroy, обеспечивая высокие стандарты качества и надежности в сфере логистики.”
             </p>
             <div className="text-sm font-medium text-gray-500">

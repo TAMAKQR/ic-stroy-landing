@@ -38,7 +38,7 @@ export default function Header() {
                 </svg>
               </button>
               {dropdownOpen && (
-                <ul className="absolute right-0 mt-2 w-full min-w-[200px] bg-white border border-gray-200 rounded-md shadow-lg z-10">
+                <ul className="absolute left-0 md:right-0 mt-2 w-full min-w-[200px] bg-white border border-gray-200 rounded-md shadow-lg z-10">
                   {phones.map((phone, index) => (
                     <li key={index}>
                       <a

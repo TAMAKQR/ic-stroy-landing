@@ -42,22 +42,22 @@ export default function FeaturesPlanet() {
                   </div>
                   <div>
                     <div
-                      className="absolute left-0 md:-left-28 top-16 z-10 animate-[float_4s_ease-in-out_infinite_both] opacity-90 transition-opacity duration-500 bg-gradient-to-r from-white/90 to-white/70 px-4 py-2 rounded shadow text-xs md:text-sm font-medium text-gray-800 w-44 text-center"
+                      className="absolute left-2 md:-left-28 top-16 z-10 animate-[float_4s_ease-in-out_infinite_both] opacity-90 transition-opacity duration-500 bg-gradient-to-r from-white/90 to-white/70 px-4 py-2 rounded shadow text-xs md:text-sm font-medium text-gray-800 w-32 md:w-44 text-center"
                     >
                       <strong>Иван Петров</strong>, <span className="text-blue-600">ООО ТрансЛогистика</span> - <span className="text-black">Надежная доставка грузов</span>
                     </div>
                     <div
-                      className="absolute left-52 md:left-56 top-7 z-10 animate-[float_4s_ease-in-out_infinite_1s_both] opacity-90 transition-opacity duration-500 bg-gradient-to-r from-white/90 to-white/70 px-4 py-2 rounded shadow text-xs md:text-sm font-medium text-gray-800 w-44 text-center"
+                      className="absolute left-32 md:left-56 top-7 z-10 animate-[float_4s_ease-in-out_infinite_1s_both] opacity-90 transition-opacity duration-500 bg-gradient-to-r from-white/90 to-white/70 px-4 py-2 rounded shadow text-xs md:text-sm font-medium text-gray-800 w-32 md:w-44 text-center"
                     >
                       <strong>Анна Сидорова</strong>, <span className="text-blue-600">АО ЭкспортПлюс</span> - <span className="text-black">Профессиональная команда</span>
                     </div>
                     <div
-                      className="absolute -left-2 md:-left-20 bottom-24 z-10 animate-[float_4s_ease-in-out_infinite_2s_both] opacity-90 transition-opacity duration-500 bg-gradient-to-r from-white/90 to-white/70 px-4 py-2 rounded shadow text-xs md:text-sm font-medium text-gray-800 w-44 text-center"
+                      className="absolute right-2 md:-left-20 bottom-24 z-10 animate-[float_4s_ease-in-out_infinite_2s_both] opacity-90 transition-opacity duration-500 bg-gradient-to-r from-white/90 to-white/70 px-4 py-2 rounded shadow text-xs md:text-sm font-medium text-gray-800 w-32 md:w-44 text-center"
                     >
                       <strong>Михаил Кузнецов</strong>, <span className="text-blue-600">ИП ЛогистикаПро</span> - <span className="text-black">Отличное обслуживание</span>
                     </div>
                     <div
-                      className="absolute left-56 md:left-64 bottom-32 z-10 animate-[float_4s_ease-in-out_infinite_3s_both] opacity-90 transition-opacity duration-500 bg-gradient-to-r from-white/90 to-white/70 px-4 py-2 rounded shadow text-xs md:text-sm font-medium text-gray-800 w-44 text-center"
+                      className="absolute left-20 md:left-64 bottom-32 z-10 animate-[float_4s_ease-in-out_infinite_3s_both] opacity-90 transition-opacity duration-500 bg-gradient-to-r from-white/90 to-white/70 px-4 py-2 rounded shadow text-xs md:text-sm font-medium text-gray-800 w-32 md:w-44 text-center"
                     >
                       <strong>Елена Васильева</strong>, <span className="text-blue-600">ЗАО ГрузСервис</span> - <span className="text-black">Всегда вовремя доставка</span>
                     </div>
