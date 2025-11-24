@@ -13,6 +13,7 @@
     "@types/node": "^22.13.0",
     "@types/react": "19.0.1",
     "@types/react-dom": "19.0.1",
+    "@vercel/speed-insights": "^1.2.0",
     "aos": "3.0.0-beta.6",
     "next": "15.1.6",
     "prettier-plugin-tailwindcss": "^0.6.11",
