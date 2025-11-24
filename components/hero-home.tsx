@@ -55,6 +55,22 @@ export default function HeroHome() {
     });
   };
 
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const message = `Заявка на перевозку:\nИмя: ${formData.name}\nТелефон: ${formData.phone}\nОткуда: ${formData.from}\nКуда: ${formData.to}\nТип груза: ${formData.cargoType}\nВес/Объем: ${formData.weight}`;
+    const encodedMessage = encodeURIComponent(message);
+    window.open(`https://wa.me/77770087777?text=${encodedMessage}`, '_blank');
+    setModalOpen(false);
+    setFormData({
+      name: '',
+      phone: '',
+      from: '',
+      to: '',
+      cargoType: '',
+      weight: ''
+    });
+  };
+
   return (
     <section className="relative">
       <PageIllustration />
