@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import PageIllustration from "@/components/page-illustration";
 
 import { SITE_DOMAIN } from "@/lib/site";
@@ -24,14 +24,16 @@ export default function HeroHome() {
     });
   };
 
-  const [terminalFormData, setTerminalFormData] = useState({
-    name: '',
-    phone: '',
-    from: '',
-    to: '',
-    cargoType: '',
-    weight: ''
-  });
+  useEffect(() => {
+    if (modalOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [modalOpen]);
 
   const handleTerminalInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setTerminalFormData({
@@ -261,7 +263,7 @@ export default function HeroHome() {
 
       {/* Modal */}
       {modalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm flex items-center justify-center z-50">
           <div className="bg-white rounded-lg p-6 max-w-md w-full mx-4">
             <h2 className="text-xl font-bold mb-4">Заявка на перевозку</h2>
             <form onSubmit={handleSubmit} className="space-y-4">
