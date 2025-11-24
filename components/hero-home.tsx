@@ -17,6 +17,15 @@ export default function HeroHome() {
     weight: ''
   });
 
+  const [terminalFormData, setTerminalFormData] = useState({
+    name: '',
+    phone: '',
+    from: '',
+    to: '',
+    cargoType: '',
+    weight: ''
+  });
+
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({
       ...formData,
