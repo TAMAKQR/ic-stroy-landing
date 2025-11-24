@@ -44,101 +44,11 @@
   --text-7xl--line-height: 1;
   --text-7xl--letter-spacing: -0.037em;
 
-  --animate-code-1: code-1;
-  --animate-code-2: code-2;
-  --animate-code-3: code-3;
-  --animate-code-4: code-4;
-  --animate-code-5: code-5;
-  --animate-code-6: code-6;
   --animate-breath: breath;
   --animate-float: float;
   --animate-line: line;
   --animate-infinite-scroll: infinite-scroll;  
 
-  @keyframes code-1 {
-    0% {
-      opacity: 0;
-    }
-    2.5% {
-      opacity: 1;
-    }
-    97.5% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-  @keyframes code-2 {
-    16.2% {
-      opacity: 0;
-    }
-    18.75% {
-      opacity: 1;
-    }
-    97.5% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-  @keyframes code-3 {
-    32.5% {
-      opacity: 0;
-    }
-    35% {
-      opacity: 1;
-    }
-    97.5% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-  @keyframes code-4 {
-    48.75% {
-      opacity: 0;
-    }
-    51.25% {
-      opacity: 1;
-    }
-    97.5% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-  @keyframes code-5 {
-    65% {
-      opacity: 0;
-    }
-    72.5% {
-      opacity: 1;
-    }
-    97.5% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-  @keyframes code-6 {
-    81.25% {
-      opacity: 0;
-    }
-    83.75% {
-      opacity: 1;
-    }
-    97.5% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
   @keyframes breath {
     0%,
     100% {
@@ -203,5 +113,30 @@
   ::backdrop,
   ::file-selector-button {
     border-color: var(--color-gray-200, currentColor);
+  }
+}
+
+/*
+  Brand color overrides for IC Stroy
+  Primary: #097f92 (teal/blue)
+  Secondary: #694c7c (purple)
+  Use black/white as primary contrast colors
+*/
+@layer base {
+  :root {
+    /* Primary brand */
+    --color-blue-500: #097f92;
+    --color-blue-600: #066b76; /* darker variant for gradient */
+    --color-blue-300: #2fa3a8;
+    --color-blue-900: #054b52;
+
+    /* Secondary brand */
+    --color-violet-300: #8b6b96;
+    --color-violet-500: #694c7c;
+    --color-purple-500: #694c7c;
+
+    /* Black/White */
+    --color-black: #000000;
+    --color-white: #ffffff;
   }
 }

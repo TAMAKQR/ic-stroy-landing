@@ -1,5 +1,6 @@
+import Link from "next/link";
 import Image from "next/image";
-import TestimonialImg from "@/public/images/large-testimonial.jpg";
+import TestimonialImg from "@/public/images/Gaukhar Kassymova.jpg";
 
 export default function LargeTestimonial() {
   return (
@@ -26,21 +27,21 @@ export default function LargeTestimonial() {
                 src={TestimonialImg}
                 width={48}
                 height={48}
-                alt="Large testimonial"
+                alt="Gaukhar Kassymova"
               />
             </div>
             <p className="text-2xl font-bold text-gray-900">
-              “Simple has simplified my life in more ways than one. From
-              managing my sites to{" "}
-              <em className="italic text-gray-500">keeping track of tasks</em>,
-              it's become my go-to tool for everything.”
+              “Более 20 лет я развиваю компанию IC Stroy, обеспечивая высокие стандарты качества и надежности в сфере логистики.”
             </p>
             <div className="text-sm font-medium text-gray-500">
-              <span className="text-gray-700">Mary Sullivan</span>{" "}
+              <span className="text-gray-700">Гаухар Касымова</span>{" "}
               <span className="text-gray-400">/</span>{" "}
-              <a className="text-blue-500" href="#0">
-                CTO at Microsoft
-              </a>
+              <Link
+                href="https://www.instagram.com/g_kassymovaa/"
+                className="text-blue-500 hover:text-blue-600"
+              >
+                Основательница IC Stroy
+              </Link>
             </div>
           </div>
         </div>

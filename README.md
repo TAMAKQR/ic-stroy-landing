@@ -1,6 +1,6 @@
-# 🚀 Business Landing Page Template
+# 🚀 IC Stroy — Landing Page Template
 
-A beautiful, responsive business landing page template built with **Next.js 15**, **Tailwind CSS v4**, and **TypeScript**. Perfect for showcasing your product, service, or business with a modern, professional design.
+A beautiful, responsive landing page template for **IC Stroy**, built with **Next.js 15**, **Tailwind CSS v4**, and **TypeScript**. Perfect for showcasing your product, service, or company with a modern, professional design.
 
 ![Next.js](https://img.shields.io/badge/Next.js-15.1.6-black?style=for-the-badge&logo=next.js)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0.3-38B2AC?style=for-the-badge&logo=tailwind-css)
@@ -31,18 +31,20 @@ A beautiful, responsive business landing page template built with **Next.js 15**
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - pnpm (recommended) or npm
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/darkmage208/business-landing-page-template.git
    cd business-landing-page-template
    ```
 
 2. **Install dependencies**
+
    ```bash
    pnpm install
    # or
@@ -50,6 +52,7 @@ A beautiful, responsive business landing page template built with **Next.js 15**
    ```
 
 3. **Run the development server**
+
    ```bash
    pnpm dev
    # or
@@ -82,16 +85,21 @@ A beautiful, responsive business landing page template built with **Next.js 15**
 ## 🎨 Customization
 
 ### Colors and Styling
+
 The template uses Tailwind CSS v4 with custom CSS variables. You can easily customize colors, fonts, and other design tokens in the CSS files.
 
 ### Components
+
 All components are modular and reusable. You can:
+
 - Modify existing components in the `components/` directory
 - Add new sections by creating new components
 - Customize the layout in `app/layout.tsx`
 
 ### Content
+
 Update the content by editing the component files:
+
 - Hero section: `components/hero-home.tsx`
 - Features: `components/features-planet.tsx`
 - Testimonials: `components/large-testimonial.tsx`
@@ -151,9 +159,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or need help, please:
 
-   - Open an [issue](https://github.com/darkmage208/business-landing-page-template/issues)
-   - Check the [documentation](https://github.com/darkmage208/business-landing-page-template/wiki)
-   - Contact us at [DarkMage](mailto:harukaleonhart@gmail.com)
+- Open an [issue](https://github.com/darkmage208/business-landing-page-template/issues)
+- Check the [documentation](https://github.com/darkmage208/business-landing-page-template/wiki)
+- Contact us at [DarkMage](mailto:harukaleonhart@gmail.com)
 
 ---
 
